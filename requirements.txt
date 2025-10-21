@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+pdfplumber
+pytesseract
+sumy
+nltk
+spacy
+networkx
+scikit-learn
+sentence-transformers
