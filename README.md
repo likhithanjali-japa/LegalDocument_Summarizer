@@ -43,40 +43,35 @@ Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-Install dependencies
 
+**Install dependencies**
 pip install -r requirements.txt
-Download spaCy English model
 
 
+**Download spaCy English model**
 python -m spacy download en_core_web_sm
-Download NLTK datasets
 
 
+**Download NLTK datasets**
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 Install Tesseract OCR (for scanned PDFs)
-
 Windows: Tesseract OCR
 
 Add Tesseract path to system environment variables
 
-Usage
-1. Streamlit UI
+**Usage**
+**1. Streamlit UI**
 Run the Streamlit application:
-
-
 streamlit run run.py
 Open the browser at http://localhost:8501
 
 Upload a PDF file
-
 Click Summarize to view the summary
 
-2. Jupyter Notebook Analysis
+**2. Jupyter Notebook Analysis**
 Open main.ipynb in Jupyter Notebook or Jupyter Lab
-
 Modify the file_path variable to point to your PDF
 
 Run all cells to generate:
@@ -90,7 +85,7 @@ Overall summary and important sentences
 Sentence occurrence analysis
 
 
-Dependencies:
+**Dependencies:**
 Python 3.10+
 Streamlit
 PyPDF2
@@ -101,6 +96,7 @@ NLTK
 spaCy
 NetworkX
 scikit-learn
+
 
 
 
